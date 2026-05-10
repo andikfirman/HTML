@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+  <title>andik</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Andik f</title>
+    </head>
+    <body>
+        <div style="text-align: center; width:90%; margin:auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+            <h1 style="color:orange;">Create a Sticky Note Effect in 5 Easy Steps With CSS3 and HTML5</h1>
+           <div style="display: flex; flex-wrap: wrap; gap: 20px; padding: 10px 0; justify-content: center; align-items: center; margin-left: -235px;">
+            <span>by <a href="https://tutsplus.com/authors/christian-heilmann" style="text-decoration: none;">Chris Heilmann</a></span>
+            <span style="color: #333;">27 Jan 2021</span>
+           </div>
+
+           <div style="display: flex; gap: 20px; padding: 10px 0; align-items: center; font-size: 14px; justify-content: center;">
+                <span>Difficulty: <i style="color: #333;">Intermediate</i></span>
+                <span>Length: <i style="color: #333;">Medium</i></span>
+
+                <div style="display: flex; gap: 10px;"></div>
+                <span> Languages:</span>
+                    <select>
+                        <option value="en">English</option>
+                        <option value="es">Spanish</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; background-color: #666; padding: 30px; width: fit-content; margin: 0 auto; grid-auto-rows: 150px;">
+
+                <div style="background-color: #ffc; padding: 20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.2rem;">Title #1</h2>
+                    <p style="margin: 0; font-size: 0.9rem;">Text Content #1</p>
+                </div>
+
+                 <div style="background-color: #ffc; padding: 20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.2rem;">Title #2</h2>
+                    <p style="margin: 0; font-size: 0.9rem;">Text Content #2</p>
+                </div>
+
+                <div style="background-color: #ffc; padding: 20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.2rem;">Title #3</h2>
+                    <p style="margin: 0; font-size: 0.9rem;">Text Content #3</p>
+                </div>
+
+                <div style="background-color: #ffc; padding: 20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.2rem;">Title #4</h2>
+                    <p style="margin: 0; font-size: 0.9rem;">Text Content #4</p>
+                </div>
+
+                <div style="background-color: #ffc; padding: 20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.2rem;">Title #5</h2>
+                    <p style="margin: 0; font-size: 0.9rem;">Text Content #5</p>
+                </div>
+
+                <div style="background-color: #ffc; padding: 20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.2rem;">Title #6</h2>
+                    <p style="margin: 0; font-size: 0.9rem;">Text Content #6</p>
+                </div>
+
+                <div style="background-color: #ffc; padding: 20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.2rem;">Title #7</h2>
+                    <p style="margin: 0; font-size: 0.9rem;">Text Content #7</p>
+                </div>
+
+                <div style="background-color: #ffc; padding: 20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.2rem;">Title #8</h2>
+                    <p style="margin: 0; font-size: 0.9rem;">Text Content #8</p>
+                </div>
+            </div>
+
+            <div style="margin: 40px auto; max-width: 700px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                <p>In this tutorial, you'll learn how to transform an HTML list into a wall of "sticky notes" that look and work like the following:</p>
+                <p>The effect is built up gradually and works on all up-to-date browsers like Chrome, Safari, Firefox, and Opera. Older browsers simply get some yellow squares</p>
+                <ol>
+                    <li>Step 1: The HTML and Basic Squares</li>
+                    <p>We will be using some common CSS properties that work across all browsers. As we are using HTML5 for the effect, the basic HTML of our sticky notes is an unordered list with a link containing all the other</p>
+                    <li>Step 2: Drop Shadows and Scribbly Font</li>
+                    <p>Now it's time to add a drop shadow to the notes to make them stand out and
+                       to use a scribbly, hand-written font as the note font. For this we use <a href="https://fonts.google.com/" >Google Fonts</a> and the fonts they provide us with, called "Reenie Beanie" and "Lato"
+                    </p>
+                    <li> Step 3: Tilting the Notes</li>
+                    <p>Both the tilting of the notes and the zooming we'll add in the next step were already explained in the past, <a href="https://www.zurb.com/playground/css3-polaroids">in this article by Zurb </a>. So big thanks to them for publishing this trick</p>
+                    <p>In order to tilt an element, you use the <a href="https://www.w3.org/TR/css-transforms-1/"> Property of CSS 3</a>, again adding the prefix for each of the browsers: </p>
+                </ol>
+                <hr color="black">
+                <iframe width="700" height="400" src="gambar5.PNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboardwrite; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p align="left">
+            Apple never showed intentions of racing the <b>Nexus 7</b> to the bottom in the tablet game, and the 
+            <b><i>iPhone 5c</i></b> is proof that it won't do that in the phone arena, either.
+        </p>
+
+        <p align="left" style="font-family: sans-serif; color:#666"><i>Infographic by Troy Dunham for Engadget</i></p>
+         <p align="left">
+            Kebudayaan Indonesia yang multikultur seperti itu, ketika dikaji dari sisi dimensi waktu, dapat dibagi pula pengertiannya:
+        </p>
+        
+        <ol align="left" type="A" >
+            <li>Pertama, kebudayaan (Indonesia) adalah kebudayaan yang sudah terbentuk.</li>
+            <li>Kedua, kebudayaan (Indonesia) adalah kebudayaan yang sedang membentuk.</li>
+            <li>Ketiga, adalah kebudayaan (Indonesia) adalah kebudayaan yang direncanakan untuk dibentuk.</li>
+        </ol>
+
+        <ol align="left" type="A">
+            <li> 10 Cara Membuat Denah Rumah Minimalis</li>
+        </ol>
+            </div>
+    </body>
+    
+</html>
+</body>
+</html>
